@@ -134,7 +134,7 @@ function Tool({
           navigate(`/selection-editor/${imageset_name}/${ty}/${concept_name}/${repeat}/${filter_name}`);
         }}
       ><FilterAltIcon /></IconButton></Tooltip>
-      <Tooltip title="create selection"><IconButton color="success" size="small"
+      <Tooltip title="selection operator"><IconButton color="success" size="small"
         onClick={() => setOperatorDialog(true)}
       ><CalculateIcon /></IconButton></Tooltip>
       <Divider orientation="vertical" flexItem />
