@@ -31,7 +31,7 @@ function Start() {
             onClick={() => setNewDialog(true) }
           >New</Button>
           <Button color="success" variant="contained" startIcon={<FolderOpenIcon />} onClick={() => setOpenDialog(true) } >Open</Button>
-          <Button color="warning" variant="contained" startIcon={<HelpIcon />} href="https://github.com/ninja-jaguar/imageset-editor.git" target="_blank">Help</Button>
+          <Button color="warning" variant="contained" startIcon={<HelpIcon />} href="https://github.com/jaguar-ninja/imageset-editor/wiki" target="_blank">Help</Button>
         </Stack>
 
       </div>

@@ -179,7 +179,7 @@ export default function Header(props: HeaderProps) {
       }}><FileDownloadIcon /></IconButton></Tooltip>
 
 
-      <Tooltip title="help"><IconButton href="https://github.com/ninja-jaguar/imageset-editor.git" target="_blank"> <HelpIcon /> </IconButton></Tooltip>
+      <Tooltip title="help"><IconButton href="https://github.com/jaguar-ninja/imageset-editor/wiki" target="_blank"> <HelpIcon /> </IconButton></Tooltip>
       <Tooltip title="home"><IconButton onClick={() => navigate("/")}><HomeIcon /></IconButton></Tooltip>
       <Tooltip title="delete"><IconButton onClick={() => {
         props.onDelete?.().catch((error: any) => console.error(error));

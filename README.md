@@ -1,5 +1,7 @@
 # ImageSet Editor
 
+see [wiki](https://github.com/jaguar-ninja/imageset-editor/wiki) to get start.
+
 ## install
 ```shell
 # create venv
