@@ -1,0 +1,10 @@
+
+# 数据存放地址
+repo_dir: "/path/to/imageset/repo"
+# 服务所在路径
+host: "localhost"
+# 服务所用端口
+port: 1420
+# 图片存放格式 JEPG 或者 PNG
+image_ext: "PNG"
+
